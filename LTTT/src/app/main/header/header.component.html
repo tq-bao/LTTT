@@ -1,0 +1,21 @@
+<header class="menu-top col-md-12 col-sm-12 col-xs-12">
+    <div onclick="goBack()" class="Left col-md-2 col-sm-2 col-xs-2">
+        <i class="fa fa-angle-left"></i>
+    </div>
+    <div class="col-md-8 col-sm-8 col-xs-8">
+        <span class="title font12">
+            <div [routerLink]="['print-document']"
+                [routerLinkActive]="['active']">
+                Print document
+            </div>
+        </span>
+    </div>
+    <span *ngIf="ios == false">
+        <label class="notify">{{datatotal}}</label>
+    </span>
+    <span class="Right" *ngIf="ios == false">
+        <a [routerLink]="['/thong-bao']">
+            <i class="fa fa-bell" style="font-size: 23px;color: #585757;"></i>
+        </a>
+    </span>
+</header>

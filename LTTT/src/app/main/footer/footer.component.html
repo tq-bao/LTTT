@@ -1,0 +1,85 @@
+
+    <div class="navbar-header row"    *ngIf="footerhidden==1 && ios == false">
+        <ul class="">
+            <li class="col-md-3 col-sm-3 col-xs-3 "    [routerLink]="['COD']"  routerLinkActive="active" >
+                <a  class="item-menu">
+                    <i class="fa fa-tags"></i>
+                    <br>
+                    <label class="lb">Thu hộ</label>
+                </a>
+            </li>
+            <li class="col-md-3 col-sm-3 col-xs-3 "   [routerLink]="['lay-hang-new']"    routerLinkActive="active" >
+                <a    class="item-menu">
+                    <i class="fa fa-cube"></i>
+                    <br>
+                    <label  class="lb">Lấy hàng</label>
+                </a>
+            </li>
+            <!--<li class="col-md-3 col-sm-3 col-xs-3"  [routerLinkActive]="['active']" >
+                <a [routerLink]="['/vi-tien']" class="item-menu">
+                    <i class="fa fa-home"></i>
+                    <label class="lb">Trang chủ</label>
+                </a>
+            </li>-->
+            <li class="col-md-3 col-sm-3 col-xs-3 "   [routerLink]="['/bao-phat-new']"   routerLinkActive="active">
+                <a     class="item-menu">
+                    <i class="fa fa-bell"></i>
+                    <br>
+                    <label  class="lb">Báo phát</label>
+                </a>
+            </li>
+            <li class="col-md-3 col-sm-3 col-xs-3"  >
+                    <div class="Home" *ngIf="footerhidden==1"    [routerLink]="['/them-van-don']" [routerLinkActive]="['active']" >
+                        <i class="fa fa-plus"></i>
+                </div>
+                <a  [routerLink]="['danh-muc']"  routerLinkActive="active"   class="item-menu">
+                    <i class="fa fa-align-justify"></i>
+                    <br>
+                    <label class="lb">Danh mục</label>
+                </a>
+
+            </li>
+        </ul>
+    </div>
+
+
+<div class="navbar-header row"   *ngIf="footerhidden==1 && ios == true">
+        <ul class="">
+            <li class="col-md-3 col-sm-3 col-xs-3 "    [routerLink]="['tra-cuu']"  routerLinkActive="active" >
+                <a  class="item-menu">
+                    <i class="fa fa-tags"></i>
+                    <br>
+                    <label class="lb">Tìm kiếm</label>
+                </a>
+            </li>
+            <li class="col-md-3 col-sm-3 col-xs-3 "   [routerLink]="['luong']"    routerLinkActive="active" >
+                <a    class="item-menu">
+                    <i class="fa fa-cube"></i>
+                    <br>
+                    <label  class="lb">Lương</label>
+                </a>
+            </li>
+            <!--<li class="col-md-3 col-sm-3 col-xs-3"  [routerLinkActive]="['active']" >
+                <a [routerLink]="['/vi-tien']" class="item-menu">
+                    <i class="fa fa-home"></i>
+                    <label class="lb">Trang chủ</label>
+                </a>
+            </li>-->
+            <li class="col-md-3 col-sm-3 col-xs-3 "   [routerLink]="['/kpi-ca-nhan-danh-gia']"   routerLinkActive="active">
+                <a     class="item-menu">
+                    <i class="fa fa-bell"></i>
+                    <br>
+                    <label  class="lb">KPI</label>
+                </a>
+            </li>
+            <li class="col-md-3 col-sm-3 col-xs-3"  >
+                  
+                <a  [routerLink]="['danh-muc']"  routerLinkActive="active"   class="item-menu">
+                    <i class="fa fa-align-justify"></i>
+                    <br>
+                    <label class="lb">Danh mục</label>
+                </a>
+
+            </li>
+        </ul>
+    </div>

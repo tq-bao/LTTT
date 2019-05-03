@@ -1,0 +1,87 @@
+.Header{
+    margin-top:15px;
+  text-align: center; 
+  position: fixed;
+  top: 0; 
+}
+.title div{
+    display: none;
+}
+.title .active{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1594CB;
+    margin-top: 2px;
+}li , div{
+    outline: none !important;
+}
+.Left{
+    float: left;
+}
+.font12
+{
+    font-size: 12px;
+}
+.noti{
+    font-size: 21px;
+     color: #585757;
+    margin-right: 10px;
+}
+.Camera{
+    background: none;
+    border: none;
+    margin-right: -50%;
+    font-size: 24px;
+    color: #585757;
+}
+.Left i{
+    font-size: 25px;
+    color: #585757;
+    font-weight: bolder;
+    margin-left: -110%;
+
+}
+.Right{
+    float: right;
+}
+.Center{
+    text-align: center;
+}
+.width100{
+width: 100%;
+}
+
+.menu-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    z-index: 1000;
+    height: 45px;
+}
+
+        .notify
+        {
+            background-color: red;
+            color: white;
+            border-radius: 8px;
+            width: 21px;
+            font-size: 12px;
+            float: right;
+        }
+ @media (max-width: 360px)
+  {
+    .title .active{
+        display: block;
+        font-size: 13px !important;
+        font-weight: bold;
+        color: #1594CB;
+        margin-top: 2px;
+    }li , div{
+        outline: none !important;
+    }
+    }

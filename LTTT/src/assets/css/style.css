@@ -1,0 +1,126 @@
+  
+  .Center{
+    text-align: center;
+}
+.showconfirm{
+    background: #029047;
+    color: white;
+    margin-top: 10px;
+    padding: 6px 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+.child-note{
+    position: fixed;
+    right: 60px;
+    top: 105px;
+    background: #cfcfcfcf;
+    border-radius: 10%;
+}
+.child-list{
+    position: fixed;
+    right: 60px;
+    top: 155px;
+    background: #cfcfcfcf;
+    border-radius: 25px;
+    height: 400px;
+    overflow: auto;
+    padding: 15px;
+}
+.showconfirmed{
+    background: #a7a7a7;
+    color: white;
+    margin-top: 10px;
+    padding: 6px 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+.loader {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100px;
+    height: 90px;
+    z-index: 10000;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 10px 22px;
+    background-color: #029047;
+}
+
+    .loader .icon {
+        border: 8px solid #fff;
+        border-top: 8px solid #000;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 2s linear infinite;
+    }
+
+    .loader loading {
+        line-height: 25px;
+        color: #fff;
+    }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.Logomid
+  {    text-align: center;
+      margin-top:32% !important;
+  }
+  .bodyloader{
+    background: #0000002e;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    text-align: center;
+    margin: 0px auto;
+    z-index: 99999999999999;
+    left: 0px;
+  }
+  .Namebottom{
+    color: #01884f;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    bottom: 6%;
+}
+/*Format Form*/
+.pading-top-10 {
+    padding-top: 10px;
+}
+
+.box-header > .fa, .box-header > .glyphicon, .box-header > .ion, .box-header .box-title {
+    font-size: 16px;
+}
+
+.pure-checkbox:nth-child(n+50) {
+    display: none;
+}.Loadmore
+{
+    text-align: center;
+}
+.Loadmore span{
+    text-align: center;
+    color: green;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #c6fbc6
+}

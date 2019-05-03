@@ -1,0 +1,691 @@
+
+.pickup
+{
+    margin-top:45px;
+    margin-bottom:50px;
+}
+.extend-head
+{
+    padding: 7px;
+    /* background-color: #01884f; */
+    color: black;
+    font-size: 14px;
+    border-bottom: 2px solid #01884f;
+}
+.return{
+    float: right;
+    background: #9a9a9a;
+    padding: 1px 15px;
+    color: white;
+    border-radius: 5px;
+}
+.picknoti
+{
+    background-color: white;
+    margin-top: 52px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    box-shadow: 1px 0 10px 1px rgba(0,0,0,.3);
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SL
+{
+    background-color: white;
+    margin-top: 20px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    box-shadow: 1px 0 10px 1px rgba(0,0,0,.3);
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search
+{
+    margin-top:10px;
+}
+.lading
+{
+    background-color: #f6f4f41c;
+    margin-top: 10px;
+    border: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    position: relative;
+    font-size: 12px;
+    box-shadow: 1px 0 10px 1px rgba(0,0,0,.3);
+}
+.padding-bot-10
+{
+    padding-bottom: 10px;
+}
+.borright{
+    border-top: solid 0.3px #777;
+    padding: 4px;
+    border-right: solid 0.3px #777;
+    text-align: center;
+}
+.borrightlast{
+    border-top: solid 0.3px #777;
+    padding: 4px;
+    text-align: center;
+}
+.font10
+{
+    font-size: 12px;
+}
+.none
+{
+    border: none;
+    background: none;
+}
+.LadingCode{
+    background: #dfdcdc;
+    padding: 6px 11px;
+    border-radius: 5px;
+}
+.SL-PC
+{
+    background-color: #f6f4f4;
+   margin-top: 25px;
+   border: none;
+   padding-top: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 0px;
+   position: relative;
+   font-size: 12px;
+   -webkit-box-shadow: 1px 0 10px 1px rgba(0,0,0,.3);
+   -moz-box-shadow: 1px 0 10px 1px rgba(0,0,0,.3);
+   box-shadow: 1px 0 10px 1px rgba(0,0,0,.3);
+}
+.mar-top-10
+{
+margin-top: 10px;
+}
+.borright{
+    border-top: solid 0.3px #777;
+    border-right: solid 0.3px #777;
+    padding: 4px;
+
+}
+.border{
+    border-top: solid 0.5px #777;
+    padding: 4px;
+}
+.width100{
+    width: 100%;
+}
+.width-100-percent {
+    width: 100%;
+}
+.witdth98
+{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center
+{
+    text-align: center;
+}
+.Edit
+{
+    background-color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    box-shadow: 1px 0 10px 1px rgba(0,0,0,.3);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    padding-top: 14px;
+   
+}
+.BC
+{
+    background: none;
+    border: none;
+}
+.status-error
+{
+    padding: 10px;
+    border: 1px solid #f5eded;
+}
+.container1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark1 {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.bor-bt
+{
+    border-bottom: 1px solid #eae7e7;
+    margin-bottom: 10px;
+}
+/* On mouse-over, add a grey background color */
+.container1:hover input ~ .checkmark1 {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container1 input:checked ~ .checkmark1 {
+    background-color: #3c763d;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container1 input:checked ~ .checkmark1:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container1 .checkmark1:after {
+ 	top: 7px;
+	left: 7px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.bottom10
+{
+    margin-bottom: 10px;
+}
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    border: 1px solid black;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #3c763d;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.no-result {
+    padding: 60px 0;
+    display: block;
+    text-align: center;
+    min-height: 100%;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.no-result__image {
+    display: inline-block;
+}
+
+.no-result__text {
+    text-align: center;
+    width: 100%;
+    color:black;
+    font-size: 14px;
+    display: block;
+}
+.ic-no-order {
+    background-image: url(/assets/images/sprites3864722.png);
+    width: 160px;
+    height: 160px;
+    background-repeat: no-repeat;
+}
+.btn-fixbottom.active{
+    background-color: #3c763d;
+}
+.w3-animate-left{position:relative;-webkit-animation:animateleft 0.4s;animation:animateleft 0.4s}
+@-webkit-keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.my-timer {
+    padding-right: 18px;
+    top: 32px;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.close_ {
+    position: absolute;
+}
+code {
+    padding: 5px 10px;
+    font-size: 100%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+.center
+{
+    text-align: center;
+}
+.mt10{
+    margin-top: 10px;
+}
+.btn-fixbottom
+{
+    z-index: 99999999;
+    position: fixed;
+    width: 100%;
+    padding: 23px;
+    background-color: #1594CB;
+    border: none;
+    color: white;
+    font-size: 13px;
+    bottom: 0px;
+    left: 0; 
+}
+.btn-fixbottom.active{
+    background-color: #122C81;
+}
+
+@page{
+    height: 210mm;
+    width: 148.5mm;
+}
+
+.ddate{
+    font-size: 0.6em;
+}
+
+[class*="-offset-"] .st-form {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px;
+    -webkit-box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+}
+
+.st-form {
+    background: #fff;
+}
+
+    .st-form .st-title {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+        color: #777;
+    }
+
+    .st-form .row {
+        margin-bottom: 20px;
+    }
+
+        .st-form .row.none {
+            margin-bottom: 0;
+        }
+
+    .st-form .box.box-default {
+        border-top: 2px solid #dddddd;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        margin-bottom: -20px;
+    }
+
+    .st-form .inputField {
+        border-bottom: 2px solid #ddd;
+        background: #fff;
+        position: relative;
+        height: 50px;
+        font-size: 12px;
+        overflow: hidden;
+    }
+
+        .st-form .inputField, .st-form .inputField .label {
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -ms-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+            .st-form .inputField, .st-form .inputField .inputText {
+                -webkit-border-radius: 0px;
+                -moz-border-radius: 0px;
+                border-radius: 0px;
+            }
+
+                .st-form .inputField.textarea {
+                    height: 120px;
+                }
+
+    .st-form .inputText, .st-form select {
+        border: none;
+        height: 100%;
+        padding: 0;
+        color: #333;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+    .st-form .st-select .select2-container {
+        width: 100%;
+        margin-top: 20px;
+        /*border-bottom: 2px solid #ddd;*/
+    }
+
+        .st-form .st-select .select2-container .select2-choice {
+            height: 30px;
+        }
+
+
+
+    .st-form .inputText, .st-form .inputText:focus, .st-form select, .st-form select:focus {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        outline: none;
+    }
+
+    /*.st-form .extend-container {
+        margin-bottom: 20px;
+    }*/
+
+    /*.st-form .extend-container .extend-body {
+            box-shadow: 0 0 7px rgba(0,0,0,0.4);
+        }*/
+
+    .st-form .extend-container.col-md-12 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+        .st-form .extend-container.col-md-12.end {
+            margin-bottom: 0;
+        }
+
+    .st-form .extend-head .row {
+        margin-bottom: 0;
+    }
+
+    .st-form .select-in-title .chosen-container-single .chosen-single div b {
+        background: url(/content/img/chosen-sprite.png) no-repeat 0 0px;
+    }
+
+    .st-form .select-in-title .chosen-container-single {
+        width: 214px !important;
+        margin-top: 15px;
+    }
+
+        .st-form .select-in-title .chosen-container-single .chosen-drop {
+            margin-top: 5px;
+        }
+
+
+    .st-form .select-in-title .chosen-container-active.chosen-with-drop .chosen-single div b {
+        background-position: -18px 0px;
+    }
+
+    .st-form .select-in-title .chosen-container .chosen-single {
+        background-color: inherit;
+        border: none;
+        box-shadow: none;
+        padding: 0px;
+        height: 18px;
+        line-height: 18px;
+        border-radius: 0;
+        color: inherit;
+    }
+
+        .st-form .select-in-title .chosen-container .chosen-single span {
+            padding-left: 10px;
+            font-weight: 400;
+        }
+
+    .st-form .select-in-title .chosen-container .chosen-results {
+        font-weight: 400;
+    }
+
+    .st-form .label {
+        color: #888;
+        font-size: 13px;
+        font-weight: 400;
+        height: 20px;
+        pointer-events: none;
+        position: absolute;
+        top: 20px;
+        bottom: 0;
+        left: 0;
+    }
+
+
+    .st-form .inputField.active .label {
+        display: block !important;
+    }
+
+    .st-form .label.right {
+        right: 0;
+        display: none;
+    }
+
+
+    .st-form .inputText, .st-form .label {
+        padding: 0px;
+    }
+
+    .st-form .inputField.active .inputText:not(select) {
+        padding-top: 23px;
+        padding-bottom: 5px;
+        width: 100%;
+    }
+
+    .st-form .inputField.active .label {
+        top: 7px;
+        color: #999;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .st-form .inputField.active.focus {
+        border-color: green;
+    }
+
+        .st-form .inputField.active.focus .label {
+            color: green;
+        }
+
+    .st-form .multiselect-native-select .btn-group {
+        width: 100% !important;
+    }
+
+        .st-form .multiselect-native-select .btn-group .multiselect {
+            font-size: 12px;
+            width: 100% !important;
+        }
+
+    .st-form .multiselect-container {
+        width: 100%;
+    }
+
+    .st-form .multiselect-native-select .multiselect-container > li > a > label {
+        white-space: normal;
+    }
+
+
+    .st-form .multiselect-native-select .multiselect-selected-text {
+        margin-right: 26px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .st-form .select-choice {
+        background-color: #f1f1f1 !important;
+    }
+
+    .st-form .st-select {
+        position: relative;
+        height: 100%;
+    }
+
+        .st-form .st-select .chosen-container {
+            width: 100% !important;
+        }
+
+        .st-form .st-select .chosen-container-single .chosen-single {
+            background-color: #fff;
+            -webkit-background-clip: padding-box;
+            -moz-background-clip: padding;
+            background-clip: padding-box;
+            border: none;
+            border-bottom: 2px solid #dddddd;
+            -webkit-box-shadow: inset 0 1px 1px white;
+            box-shadow: inset 0 1px 1px white;
+            border-radius: 0;
+            color: #555555;
+            display: block;
+            height: 50px;
+            overflow: hidden;
+            line-height: 50px;
+            position: relative;
+            text-decoration: none;
+            white-space: nowrap;
+            padding: 5px 10px;
+            text-transform: capitalize;
+        }
+
+            .st-form .st-select .chosen-container-single .chosen-single div b {
+                background: url(/Content/img/expand-button.png) no-repeat;
+                background-position: 0px 23px;
+            }
+
+        .st-form .st-select select, .st-form .st-select select option {
+            background: #fff;
+            color: #333;
+            cursor: pointer;
+            margin-top: 25px;
+            font-size: 12px;
+            border-bottom: 2px solid #dddddd;
+            padding-bottom: 6px;
+            width: 100%;
+        }
+
+            .st-form .st-select select option {
+                padding: 7px 14px;
+            }
+
+            .st-form .st-select select:focus {
+                outline: none;
+            }
+
+        .st-form .st-select .label {
+            top: 7px;
+            color: #999;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .st-form .st-select .chosen-container-single .chosen-single span {
+            font-size: 12px;
+            margin-top: 3px;
+            /*color: #888;*/
+        }
+
+    .st-form .date .btn {
+        margin-top: 15px;
+    }
+
+    .st-form .st-capcha {
+        display: table;
+        width: 100%;
+        height: 100%;
+    }
+
+        .st-form .st-capcha .tb-cell {
+            width: 50%;
+        }
+
+        .st-form .st-capcha .capcha {
+            padding-left: 15px;
+        }
